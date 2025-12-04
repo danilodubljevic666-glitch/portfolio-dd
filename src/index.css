@@ -402,3 +402,22 @@
     animation-delay: calc(500ms + var(--index) * 100ms) !important;
   }
 }
+/* Ovo sprječava nestajanje na hover */
+.group:hover {
+  z-index: 10 !important;
+  position: relative;
+}
+
+/* Overlay koji se pojavljuje na hover */
+.hover-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0,0,0,0.8), rgba(55,65,81,0.8));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.group:hover .hover-overlay {
+  opacity: 1;
+}
