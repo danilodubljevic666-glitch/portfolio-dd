@@ -1,0 +1,21 @@
+body{
+  background-color:  black;
+}
+/* Animacija za skill barove */
+@keyframes fillBar {
+  from {
+    width: 0%;
+  }
+  to {
+    width: var(--target-width);
+  }
+}
+
+.skill-bar {
+  animation: fillBar 1.5s ease-out forwards;
+  animation-play-state: paused;
+}
+
+.skill-bar.animate {
+  animation-play-state: running;
+}
