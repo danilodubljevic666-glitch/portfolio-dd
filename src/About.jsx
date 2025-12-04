@@ -161,7 +161,7 @@ const About = () => {
                   { icon: '💻', name: 'Web Dev' },
                   { icon: '🎨', name: 'UI/UX' },
                   { icon: '📱', name: 'Mobile' },
-                  { icon: '🎮', name: 'Gaming' },
+                  { icon: '💡', name: 'Creativity' },
                   { icon: '📚', name: 'Reading' },
                   { icon: '✈️', name: 'Travel' }
                 ].map((interest, index) => (

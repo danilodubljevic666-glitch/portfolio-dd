@@ -1,67 +1,69 @@
 import React, { useState, useEffect, useRef } from 'react';
-
+import rentacar from './slike/rentacar55.png';
+import stamparija from './slike/stamparija.png';
+import portfolio from './slike/portfolio.png';
 const Projects = () => {
   const [hoveredProject, setHoveredProject] = useState(null);
   
   const projects = [
     {
       id: 1,
-      title: 'E-commerce Platform',
-      description: 'Full-stack online shop sa React frontend i PHP backend. Kompletan sistem za online prodaju sa korpom, checkout-om i admin panelom.',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800',
-      tags: ['React', 'PHP', 'MySQL', 'Tailwind', 'REST API'],
-      category: 'fullstack',
-      github: 'https://github.com',
-      live: 'https://live-demo.com',
+      title: 'Rent a Car Project',
+      description: 'Single Page projekat za iznajmljivanje vozila, kontakt forme i upravljanje rezervacijama.',
+      image: rentacar,
+      tags: ['React', 'Tailwindcss', 'Git', 'npm'],
+      category: 'Frontend',
+      github: 'https://github.com/danilodubljevic666-glitch/rentacar55',
+      live: 'https://rentacar55.vercel.app',
       featured: true
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'Modern task manager sa drag & drop funkcionalnostima, labelima i deadline trackingom.',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=800',
-      tags: ['React', 'JavaScript', 'CSS3', 'LocalStorage', 'Drag & Drop'],
+      title: 'Štamparija Madex',
+      description: 'Moderni web sajt za štampariju sa funkcionalnostima pregleda proizvoda i upravljanja narudžbama.',
+      image: stamparija,
+      tags: ['React', 'JavaScript', 'CSS3', 'Git', 'npm'],
       category: 'frontend',
-      github: 'https://github.com',
-      live: 'https://live-demo.com',
+      github: 'https://https://github.com/danilodubljevic666-glitch/stamparijamadex.com',
+      live: 'https://stamparijamadex.vercel.app',
       featured: true
     },
     {
       id: 3,
       title: 'Portfolio Website',
       description: 'Responsive portfolio sa custom animacijama i modernim dizajnom. Optimizovan za SEO i brzo učitavanje.',
-      image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?auto=format&fit=crop&w=800',
-      tags: ['React', 'Tailwind', 'CSS3', 'JavaScript', 'Responsive'],
+      image: portfolio,
+      tags: ['React', 'Tailwind', 'CSS3',  'Responsive'],
       category: 'frontend',
-      github: 'https://github.com',
-      live: 'https://live-demo.com'
+      github: 'https://github.com/danilodubljevic666-glitch/portfolio-dd',
+      live: 'https://portfolio-dd-nine.vercel.app'
     },
     {
       id: 4,
       title: 'Weather Dashboard',
-      description: 'Real-time weather app sa API integracijom, geolokacijom i 7-dnevnom prognozom.',
+      description: 'Jednostavna Weather aplikacija koja prikazuje trenutne vremenske uslove i prognozu za naredne dane.',
       image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&w=800',
-      tags: ['JavaScript', 'API', 'CSS3', 'Bootstrap', 'Async/Await'],
+      tags: ['JavaScript', 'API', 'CSS3', 'HTML5'],
       category: 'frontend',
-      github: 'https://github.com',
-      live: 'https://live-demo.com'
+      github: 'https://github.com/danilodubljevic666-glitch/weatherapp',
+      live: 'https://weatherapp-pi-ashen.vercel.app'
     },
     {
       id: 5,
-      title: 'Blog Platform',
+      title: 'Blog Platform (coming soon)',
       description: 'CMS za blog sa admin panelom, komentarima i kategorijama. Full-stack aplikacija.',
       image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800',
-      tags: ['PHP', 'MySQL', 'JavaScript', 'Bootstrap', 'CRUD'],
+      tags: ['PHP', 'MySQL', 'JavaScript', 'Bootstrap'],
       category: 'fullstack',
       github: 'https://github.com',
       live: 'https://live-demo.com'
     },
     {
       id: 6,
-      title: 'Recipe Finder',
-      description: 'Aplikacija za pronalaženje recepata sa filterima, favoritima i shopping listom.',
+      title: 'Recipe Finder (coming soon)',
+      description: 'Aplikacija za pronalaženje recepata sa filterima, favoritima i shopping listom. Integracija sa eksternim API-jem.',
       image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800',
-      tags: ['React', 'API', 'Tailwind', 'JavaScript', 'State Management'],
+      tags: ['React', 'API', 'Tailwind', 'JavaScript'],
       category: 'frontend',
       github: 'https://github.com',
       live: 'https://live-demo.com'

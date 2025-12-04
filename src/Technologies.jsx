@@ -276,7 +276,7 @@ const Technologies = () => {
                 icon: '⚙️',
               },
               { 
-                year: '2024+', 
+                year: '2025+', 
                 title: 'Full Stack', 
                 tech: 'Laravel, Node.js',
                 icon: '🚀',

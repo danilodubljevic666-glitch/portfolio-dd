@@ -4,6 +4,8 @@ import HeroSection from './HeroSection'
 import About  from './About'
 import Technologies from './Technologies'
 import Projects from './Projects'
+import Contact from './Contact'
+import Footer from './Footer'
 import './App.css'
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <About/>
       <Technologies/>
       <Projects/>
+      <Contact/>
+      <Footer/>
     </>
   )
 }
