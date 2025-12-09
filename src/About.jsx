@@ -92,7 +92,7 @@ const About = () => {
                 
                 <div className="space-y-1">
                   <p className="font-['Inter'] text-gray-400 text-xs md:text-sm">Email</p>
-                  <p className="font-['Inter'] text-base md:text-lg text-sm md:text-base">danilo@example.com</p>
+                  <p className="font-['Inter'] text-base md:text-m text-sm md:text-base">danilo.dubljevic666@gmail.com</p>
                 </div>
                 
                 <div className="space-y-1">

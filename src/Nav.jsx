@@ -80,7 +80,7 @@ const Nav = () => {
           {/* CV Dugme */}
           <div className="hidden md:block">
             <a
-              href="/cv.pdf"
+              href="./public/CV.pdf"
               download
               className="px-6 py-2.5 font-['Inter'] font-medium text-white rounded-lg border-2 border-white/30 hover:border-white hover:bg-white/10 transition-all duration-300 hover:scale-105"
             >

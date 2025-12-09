@@ -1,0 +1,30 @@
+<!-- Save this as public/favicon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DD logo">
+  <defs>
+    <linearGradient id="gHighlight" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <clipPath id="clipText">
+      <!-- clip shape follows the text area so highlight only affects letters -->
+      <rect x="0" y="0" width="64" height="64" rx="8"/>
+    </clipPath>
+  </defs>
+
+  <!-- optional subtle rounded square (transparent background if you want purely glyphs) -->
+  <rect width="64" height="64" rx="8" fill="transparent"/>
+
+  <!-- Two-letter mark: using text for a crisp, compact favicon -->
+  <text x="50%" y="56%" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif"
+        font-weight="800" font-size="36" fill="#0a0a0a" dominant-baseline="middle">DD</text>
+
+  <!-- soft white highlight overlay clipped to the text bounding box area -->
+  <!-- we use a translucent gradient rectangle positioned to cover upper part of glyphs -->
+  <g clip-path="url(#clipText)" style="mix-blend-mode: screen; pointer-events: none;">
+    <rect x="8" y="6" width="48" height="26" rx="3" fill="url(#gHighlight)"/>
+  </g>
+
+  <!-- tiny outer stroke to help letters stand out on dark tabs -->
+  <text x="50%" y="56%" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif"
+        font-weight="800" font-size="36" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1" dominant-baseline="middle">DD</text>
+</svg>
