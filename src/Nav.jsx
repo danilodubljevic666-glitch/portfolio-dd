@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import CVDownload from './CVDownload';
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -77,15 +78,9 @@ const Nav = () => {
             </div>
           </div>
 
-          {/* CV Dugme */}
+          {/* CV Dugme - Desktop verzija */}
           <div className="hidden md:block">
-            <a
-              href="/cv/CV.pdf"
-              download
-              className="px-6 py-2.5 font-['Inter'] font-medium text-white rounded-lg border-2 border-white/30 hover:border-white hover:bg-white/10 transition-all duration-300 hover:scale-105"
-            >
-              Preuzmi CV
-            </a>
+            <CVDownload />
           </div>
 
           {/* Mobile menu button */}
@@ -159,13 +154,7 @@ const Nav = () => {
           
           {/* CV Dugme za mobile */}
           <div className="px-4 py-3">
-            <a
-              href="/Danilo_Dubljevic_CV.txt"
-              download
-              className="block w-full text-center px-6 py-3 font-['Inter'] font-medium text-white rounded-lg border-2 border-white/30 hover:border-white hover:bg-white/10 transition-all duration-300"
-            >
-              Preuzmi CV
-            </a>
+            <CVDownload />
           </div>
         </div>
       </div>
