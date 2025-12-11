@@ -2,12 +2,12 @@ import React, { useEffect, useRef } from 'react';
 
 const About = () => {
   const skills = [
-    { name: 'HTML/CSS', level: 95 },
-    { name: 'JavaScript', level: 90 },
-    { name: 'React', level: 88 },
-    { name: 'Tailwind CSS', level: 92 },
-    { name: 'Git/GitHub', level: 85 },
-    { name: 'Responsive Design', level: 94 },
+    { name: 'HTML/CSS', level: 100 },
+    { name: 'JavaScript', level: 100 },
+    { name: 'React', level: 99 },
+    { name: 'Tailwind CSS', level: 95 },
+    { name: 'Git/GitHub', level: 95 },
+    { name: 'Responsive Design', level: 95 },
   ];
 
   const experiences = [
@@ -64,7 +64,7 @@ const About = () => {
                 Danilo Dubljević
               </h3>
               <p className="font-['Inter'] text-base md:text-lg text-gray-300 leading-relaxed">
-                Frontend developer sa strastvu za kreiranje modernih, brzih i responzivnih web aplikacija. 
+                Frontend developer ka strastvu za kreiranje modernih, brzih i responzivnih web aplikacija. 
                 Specijalizovan za React ekosistem i moderne CSS framework-ove.
               </p>
               <p className="font-['Inter'] text-base md:text-lg text-gray-300 leading-relaxed">
