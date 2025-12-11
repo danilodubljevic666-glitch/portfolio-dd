@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import rentacar from './slike/rentacar55.png';
 import stamparija from './slike/stamparija.png';
 import portfolio from './slike/portfolio.png';
+import snkrz from './slike/snkrz.png';
 const Projects = () => {
   const [hoveredProject, setHoveredProject] = useState(null);
   
@@ -50,13 +51,13 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: 'Blog Platform (coming soon)',
-      description: 'CMS za blog sa admin panelom, komentarima i kategorijama. Full-stack aplikacija.',
-      image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800',
-      tags: ['PHP', 'MySQL', 'JavaScript', 'Bootstrap'],
+      title: 'SNKRZ ',
+      description: 'E commerce stor za prodaju patika sa korpom i plaćanjem. Responzivni dizajn i jednostavna navigacija.',
+      image: snkrz,
+      tags: ['React', 'Tailwindcss', 'EmailJS', 'npm'],
       category: 'fullstack',
-      github: 'https://github.com',
-      live: 'https://live-demo.com'
+      github: 'https://github.com/danilodubljevic666-glitch/SNIKRZ',
+      live: 'https://snikrz.vercel.app/'
     },
     {
       id: 6,
