@@ -160,7 +160,7 @@ const Nav = () => {
           {/* CV Dugme za mobile */}
           <div className="px-4 py-3">
             <a
-              href="/portfolio.png"
+              href="/Danilo_Dubljevic_CV.txt"
               download
               className="block w-full text-center px-6 py-3 font-['Inter'] font-medium text-white rounded-lg border-2 border-white/30 hover:border-white hover:bg-white/10 transition-all duration-300"
             >

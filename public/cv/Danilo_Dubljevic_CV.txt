@@ -1,0 +1,43 @@
+Danilo Dubljević - Frontend Developer
+
+KONTAKT INFORMACIJE:
+LinkedIn: linkedin.com/n/danilo-dubljevic
+Email: danilo.dubljevic666@gmail.com
+Telefon: +382 68 048 655
+Portfolio: https://portfolio-dd-nine.vercel.app/
+
+RADNO ISKUSTVO:
+Web Developer (preko 3 godine iskustva)
+
+Tehnologije i alati:
+- HTML5, CSS3, JavaScript ES6
+- React framework, Tailwind CSS, Bootstrap
+- jQuery, PHP, MySQL
+- Framer (no-code alat), Figma (dizajn)
+- Git i GitHub
+
+Ostale aktivnosti:
+- Radio kao solo developer izgradivši 5 projekata
+- Kompletna izrada od dizajna do hostovanja i SEO optimizacije
+- Fokusiran na postajanje full-stack i mobile app developera
+
+OBRAZOVANJE:
+Srednja stručna elektrotehnička škola, Nikšić
+- Smjer: "Elektrotehničar za razvoj web i mobilnih aplikacija"
+- Završeno prije dvije godine
+
+Univerzitet Crne Gore - Elektrotehnički fakultet
+- Studijski program: Primijenjeno računarstvo
+- Nastavak obrazovanja nakon srednje škole
+
+CERTIFIKATI:
+Cortex akademija (2023)
+- Obuka o web developmentu
+- Položena 3 eliminaciona testa
+- Timski projekt: "Online biblioteka"
+- Plasman: drugo mjesto
+
+RELEVANTNE VJEŠTINE:
+- Grafički dizajn
+- Tečno znanje engleskog jezika
+- Kreativnost i odgovornost
